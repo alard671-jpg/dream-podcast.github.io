@@ -1,8 +1,13 @@
 body {font-family: Arial, sans-serif; background: #E0F7FA; color: #333; margin: 0; padding: 0;}
-header {background: #1B5E20; color: #FFF; padding: 50px 20px; text-align: center;}
+header {background: #800000; color: #FFF; padding: 50px 20px; text-align: center;}
 button {background: #FF5722; color: #FFF; padding: 15px 30px; border: none; border-radius: 30px; font-size: 18px; cursor: pointer;}
 button:hover {background: #E64A19;}
 table {width: 90%; margin: 30px auto; border-collapse: collapse;}
 th, td {border: 1px solid #81C784; padding: 12px; text-align: center;}
 th {background: #4CAF50; color: #FFF;}
 @media (max-width: 600px) {table {font-size: 14px;}}
+.news-ticker {position: fixed; top: 0; width: 100%; background: #2196F3; color: #FFF; padding: 10px; overflow: hidden; z-index: 1000;}
+.ticker-ar {animation: scroll-up 20s linear infinite;}
+.ticker-en {animation: scroll-up 20s linear infinite; direction: ltr;}
+@keyframes scroll-up {0% {transform: translateY(100%);} 100% {transform: translateY(-100%);}}
+.social-links a {margin: 10px; display: inline-block; background: #4CAF50; color: #FFF; padding: 10px; border-radius: 5px; text-decoration: none;}
