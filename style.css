@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background: #f0f8ff; color: #333; text-align: center; }
+header { background: #4caf50; color: white; padding: 20px; }
+table { border-collapse: collapse; width: 80%; margin: auto; }
+th, td { border: 1px solid #ddd; padding: 8px; }
+.ticker-ar { color: blue; animation: ticker 20s linear infinite; direction: rtl; }
+.ticker-en { color: purple; animation: ticker 20s linear infinite; direction: ltr; }
+@keyframes ticker { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
+form { max-width: 500px; margin: auto; }
